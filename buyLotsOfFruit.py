@@ -51,7 +51,7 @@ def buyLotsOfFruit(orderList):
         else:
             print(f'{a} is not present in fruitPrices')
 
-    # returning the total price in the end
+    # returning the total price
             
     return totalCost
 
