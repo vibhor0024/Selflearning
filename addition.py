@@ -19,6 +19,6 @@ Run python autograder.py
 
 def add(a, b):
 
-# return the sum of a & b
+# return the sum of a & b numbers
 
     return a+b
