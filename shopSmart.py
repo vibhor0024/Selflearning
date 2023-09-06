@@ -34,7 +34,7 @@ def shopSmart(orderList, fruitShops):
     "*** YOUR CODE HERE ***"
     totalCost = sys.maxsize
 
-# iterating through the shops
+# iterating through the shops given
 
     for a in fruitShops:
 
