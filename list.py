@@ -44,3 +44,15 @@ courses += ['IAS','FOA'] # another way to add more items
 print(courses)
 
 print(courses.index('English')) # to print the index of the item
+
+# List compression
+
+number = [1,2,3,4,5]
+
+double = [n*2 for n in number]
+
+print(double)
+
+double2 = number*2
+
+print(double2)
