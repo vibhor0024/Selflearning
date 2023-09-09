@@ -11,7 +11,8 @@ class dog:
 dog1 = dog('Bolt',10)
 dog2 = dog('Lucy',11)
 
-print(dog2 > dog1)
+print(dog2 > dog1) # the same built-in operator or function shows different behavior 
+                   # for objects of different classes, this is called Operator Overloading. 
 
 print(dog1.age)
 print(type(dog1))
