@@ -53,6 +53,3 @@ double = [n*2 for n in number]
 
 print(double)
 
-double2 = number*2
-
-print(double2)
