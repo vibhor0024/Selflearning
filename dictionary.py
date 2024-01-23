@@ -6,8 +6,8 @@ print(student.popitem()) # removes the last item
 
 print(student)
 
-print(list(student.keys())) # list of all the keys
-
+print(list((student.keys()))) # list of all the keys
+print(type(student.keys()))
 print(list(student.values())) # list of all the values
 
 print(list(student.items())) # list of tuples with all key, value pairs

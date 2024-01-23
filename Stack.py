@@ -1,5 +1,23 @@
-str1 = 'Hello'
+class Stack:
+    
+    def __init__(self):
+        self.arrows = []
 
-res = ''.join(sorted(str1))
+    def push(self, arrow):
+        # ?
+        self.arrows.append(arrow)
 
-print(res)
+    def pop(self):
+        # ?
+        if len(self.arrows) == 0:
+            return None
+        return self.arrows.pop()
+    
+    def peek(self):
+        # ?
+        if len(self.arrows) == 0:
+            return None
+        return self.arrows[len(self.arrows) - 1]
+    def size(self):
+        # ?
+        return len(self.arrows)
